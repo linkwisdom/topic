@@ -24,32 +24,39 @@
 
 块级元素在浏览器显示时，通常会以新行来开始（和结束）。
 
-例子：<h1>, <p>, <ul>, <table>
+例子：
+
+```html
+   <h1>, <p>, <ul>, <table>
+```
 
 ### HTML 内联元素
 
 内联元素在显示时通常不会以新行开始。
 
-例子：<b>, <td>, <a>, <img>
+例子：
+
+```html
+    <b>, <td>, <a>, <img>
+```
+
 
 > 大部分html标签都有一定语义；但是部分元素只是用来包装元素和方便样式定义
 
+
 <div>
 <h2>HTML 分组标签</h2>
-
 <table class="dataintable">
 <tbody><tr>
 <th style="width:25%;">标签</th>
 <th>描述</th>
 </tr>
-
 <tr>
-<td><a href="/tags/tag_div.asp" title="HTML &lt;div&gt; 标签">&lt;div&gt;</a></td>
+<td>div</a></td>
 <td>定义文档中的分区或节（division/section）。</td>
 </tr>
-
 <tr>
-<td><a href="/tags/tag_span.asp" title="HTML &lt;span&gt; 标签">&lt;span&gt;</a></td>
+<td>span</td>
 <td>定义 span，用来组合文档中的行内元素。</td>
 </tr>
 </tbody></table>
