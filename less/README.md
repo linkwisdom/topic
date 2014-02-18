@@ -61,10 +61,28 @@
       .navigation {
         font-size: 12px;
       }
+
       .logo {
         width: 300px;
         &:hover { text-decoration: none }
       }
+    }
+```
+
+输出结果为
+
+```css
+    #header {
+      color: black;
+    }
+    #header .navigation {
+      font-size: 12px;
+    }
+    #header .logo {
+      width: 300px;
+    }
+    #header .logo:hover {
+      text-decoration: none;
     }
 ```
 
@@ -78,3 +96,5 @@
 - js语句执行
 
 > 掌握less的核心语法；目标是为了写出可读性更高，执行效率更高，管理更方便的前端样式代码；
+
+[less 在线练习](http://fiddlesalad.com/less/)
