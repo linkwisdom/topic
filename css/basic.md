@@ -42,9 +42,9 @@
 
 > 浮动的框可以向左或向右移动，直到它的外边缘碰到包含框或另一个浮动框的边框为止。
 
-![左浮动](./img/float-left.git)
+![左浮动](./img/float-left.gif)
 
-![右浮动](./img/float-right.git)
+![右浮动](./img/float-right.gif)
 
 > 浮动元素脱离原默认的布局空间；如果要占用一定空间，不遮住其它元素，需要用到`clear`属性
 
