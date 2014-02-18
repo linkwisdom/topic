@@ -98,81 +98,61 @@
 
 - 背景
 
--- 背景颜色 `background-color`
--- 背景图片 `background-image`
--- 背景重复 `background-repeat`
--- 背景位置 `background-position`
+--  背景颜色 `background-color`
 
-``css
-  p {background-color: gray;}
+--  背景图片 `background-image`
 
-  body { 
-      background-image: url('/i/eg_bg_03.gif');
-      background-repeat: no-repeat;
-      background-position: -60px -30px;
-  }
+--  背景重复 `background-repeat`
 
+--  背景位置 `background-position`
+
+
+```css
+    p {background-color: gray;}
+    body { 
+        background-image: url("/i/eg_bg_03.gif");
+        background-repeat: no-repeat;
+        background-position: -60px -30px;
+    }
 ```
+
 
 - 文本
 
-<div>
-<h2>CSS 文本属性</h2>
-<table class="dataintable">
-  <tbody><tr>
-    <th>属性</th>
-    <th>描述</th>
-  </tr>
-  <tr>
-    <td><a href="pr_text_color.asp">color</a></td>
-    <td>设置文本颜色</td>
-  </tr>
-  <tr>
-    <td><a href="pr_text_direction.asp" title="CSS direction 属性">direction</a></td>
-    <td>设置文本方向。</td>
-  </tr>
-  <tr>
-    <td><a href="/css/pr_dim_line-height.asp">line-height</a></td>
-    <td>设置行高。</td>
-  </tr>
-  <tr>
-    <td><a href="pr_text_letter-spacing.asp" title="CSS letter-spacing 属性">letter-spacing</a></td>
-    <td>设置字符间距。</td>
-  </tr>
-  <tr>
-    <td><a href="pr_text_text-align.asp" title="CSS text-align 属性">text-align</a></td>
-    <td>对齐元素中的文本。</td>
-  </tr>
-  <tr>
-    <td><a href="pr_text_text-decoration.asp">text-decoration</a></td>
-    <td>向文本添加修饰。</td>
-  </tr>
-  <tr>
-    <td><a href="pr_text_text-indent.asp" title="CSS text-indent 属性">text-indent</a></td>
-    <td>缩进元素中文本的首行。</td>
-  </tr>
-  <tr>
-    <td>text-shadow</td>
-    <td>设置文本阴影。CSS2 包含该属性，但是 CSS2.1 没有保留该属性。</td>
-  </tr>
-  <tr>
-    <td><a href="pr_text_text-transform.asp">text-transform</a></td>
-    <td>控制元素中的字母。</td>
-  </tr>
-  <tr>
-    <td>unicode-bidi</td>
-    <td>设置文本方向。</td>
-  </tr>
-  <tr>
-    <td><a href="pr_text_white-space.asp" title="CSS white-space 属性">white-space</a></td>
-    <td>设置元素中空白的处理方式。</td>
-  </tr>
-  <tr>
-    <td><a href="pr_text_word-spacing.asp" title="CSS word-spacing 属性">word-spacing</a></td>
-    <td>设置字间距。</td>
-  </tr>
-</tbody></table>
-</div>
+<table>
+<tbody>
+<tr>
+  <th>属性</th>
+  <th>描述</th>
+</tr>
+<tr>
+<td>color</td><td>设置文本颜色</td>
+</tr>
+<tr>
+  <td>line-height</td><td>设置行高。</td>
+</tr>
+<tr>
+  <td>letter-spacing></td><td>设置字符间距。</td>
+</tr>
+<tr>
+  <td>text-align</td><td>对齐元素中的文本。</td>
+</tr>
+<tr>
+  <td>text-decoration</td><td>向文本添加修饰。</td>
+</tr>
+<tr>
+  <td>text-indent</td><td>缩进元素中文本的首行。</td>
+</tr>
+<tr>
+  <td>text-shadow</td><td>设置文本阴影。CSS2 包含该属性，但是 CSS2.1 没有保留该属性。</td>
+</tr>
+<tr>
+  <td>word-spacing</td><td>设置字间距。</td>
+</tr>
+</tbody>
+</table>
+
+
 
 - 链接
 
@@ -185,33 +165,29 @@
 
 - 列表
 
-<div>
-<h2>CSS 列表属性(list)</h2>
-
-<table class="dataintable">
+<table>
   <tbody><tr>
     <th>属性</th>
     <th>描述</th>
   </tr>
   <tr>
-    <td><a href="pr_list-style.asp">list-style</a></td>
+    <td>list-style</td>
     <td>简写属性。用于把所有用于列表的属性设置于一个声明中。</td>
   </tr>
   <tr>
-    <td><a href="pr_list-style-image.asp">list-style-image</a></td>
+    <td>list-style-image</td>
     <td>将图象设置为列表项标志。</td>
   </tr>
   <tr>
-    <td><a href="pr_list-style-position.asp">list-style-position</a></td>
+    <td>list-style-position</td>
     <td>设置列表中列表项标志的位置。</td>
   </tr>
   <tr>
-    <td><a href="pr_list-style-type.asp">list-style-type</a></td>
+    <td>list-style-type</td>
     <td>设置列表项标志的类型。</td>
   </tr>
   
 </tbody></table>
-</div>
 
 
 ## 嵌入样式方法
