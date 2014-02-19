@@ -52,6 +52,69 @@
 
 > 上下外边距自动合并, 参考w3c文档
 
+
+## 显示方式 display
+
+隐藏元素： display: none
+
+- 区别 `visibility: hidden`
+
+显示为块元素: `display: block`
+
+显示为内联元素: `display: inline`
+
+<table class="dataintable">
+<tbody><tr>
+<th>值</th>
+<th>描述</th>
+</tr>
+<tr>
+<td>none</td>
+<td>此元素不会被显示。</td>
+</tr>
+
+<tr>
+<td>block</td>
+<td>此元素将显示为块级元素，此元素前后会带有换行符。</td>
+</tr>
+
+<tr>
+<td>inline</td>
+<td>默认。此元素会被显示为内联元素，元素前后没有换行符。</td>
+</tr>
+
+<tr>
+<td>inline-block</td>
+<td>行内块元素。（CSS2.1 新增的值）</td>
+</tr>
+
+<tr>
+<td>list-item</td>
+<td>此元素会作为列表显示。</td>
+</tr>
+
+<tr>
+<td>run-in</td>
+<td>此元素会根据上下文作为块级元素或内联元素显示。</td>
+</tr>
+<tr>
+<td>table</td>
+<td>此元素会作为块级表格来显示（类似 &lt;table&gt;），表格前后带有换行符。</td>
+</tr>
+
+<tr>
+<td>inline-table</td>
+<td>此元素会作为内联表格来显示（类似 &lt;table&gt;），表格前后没有换行符。</td>
+</tr>
+<tr>
+<td>inherit</td>
+<td>规定应该从父元素继承 display 属性的值。</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ## 定位: position
 ---------------------------
 
@@ -93,6 +156,8 @@
 ![右浮动](./img/float-right.gif)
 
 > 浮动元素脱离原默认的布局空间；如果要占用一定空间，不遮住其它元素，需要用到`clear`属性
+
+> 
 
 ## 样式
 
